@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<style>
+		body {background-color: blue;}
+		h1 {
+			font-size: 300%; 
+			text-align: center;
+			color: blue;
+		}
+		#HBD {
+		    background-color: blue;
+		    position: relative;
+		    width: 90%;
+		    animation-name: example;
+		    animation-duration: 4s;
+		    animation-iteration-count: infinite;
+
+			border: 3px solid black;
+		}
+
+		#Click {
+			width: 10%;
+			float: right;
+			padding-left: 45%;
+			padding-right: 45%;
+			padding-top: 250px;
+		}
+
+		#Click a{
+			color: black;
+			position: center;
+		}
+		/* Standard syntax */
+		@keyframes example {
+		    0%   {background-color:blue; left:0px; top:0px;}
+		    75%  {background-color:yellow; left:10%; top:0px;}
+		    25%  {background-color:red; left:10%; top:200px;}
+		    50%  {background-color:green; left:0px; top:200px;}
+		    100% {background-color:blue; left:0px; top:0px;}
+		}
+
+	</style>
+	<body>
+		<div id="HBD">
+			<h1>HAPPY BIRTHDAY FATHER</h1>
+		</div>
+		
+		<div id="Click">
+			<a href="https://goo.gl/photos/wgvaTjs39xMvkHZH9">Click Me!</a>
+		</div>
+
+	</body>
+</html>
